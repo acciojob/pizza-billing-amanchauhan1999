@@ -68,7 +68,7 @@ public class Pizza {
         }if (!take){
             bill += "Paperbag Added: 20"+System.lineSeparator();
         }
-        bill += "Total Price: "+getPrice();
+        bill += "Total Price: "+getPrice()+System.lineSeparator();
         return this.bill;
     }
 }
