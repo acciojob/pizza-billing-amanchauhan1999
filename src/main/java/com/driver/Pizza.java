@@ -39,13 +39,13 @@ public class Pizza {
             if (vegtoppings){
             price = price+70;
             vegtoppings = false;
-            bill += "Extra Toppings Added: 70"+System.lineSeparator();
+          //  bill += "Extra Toppings Added: 70"+System.lineSeparator();
             }
         }else {
             if (nonvegtoppings){
             price = price + 120;
             nonvegtoppings = false;
-            bill += "Extra Toppings Added: 120"+System.lineSeparator();
+           // bill += "Extra Toppings Added: 120"+System.lineSeparator();
             }
         }
     }
